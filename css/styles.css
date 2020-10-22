@@ -9,6 +9,7 @@ a, button {
     text-decoration: none;
     color: inherit;
     border: 0;
+    cursor: pointer;
 }
 
 html {
@@ -155,3 +156,7 @@ body {
     margin: 50px auto;
   }
   
+.btn-more:hover {
+    background-color: rgba(247, 43, 60, 0.575);
+    opacity: .9;
+  }
